@@ -33,7 +33,7 @@ while (playAgain == true)
 
     if((userInput != true) || (userInput2 != true))
     {
-        Console.WriteLine("You need to enter in NUMBERS only. Please try again :)");
+        Console.WriteLine("Enter in NUMBERS only. Please try again.");
     }
     else if (validNum > validNum2)
     {
