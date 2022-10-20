@@ -1,5 +1,5 @@
 ﻿//Brandon Le
-//10-19-22
+//10-20-22
 //Mini Challenge 4 - Greater Than or Less Than
 //Will ask the user to input two numbers and will validate whethere they are 
 //greater, less than, or equal to one another. Will also give an error message if numbers
@@ -10,9 +10,11 @@ int validNum = 0;
 int validNum2 = 0;
 string num1;
 string num2;
+string userAnswer;
+bool canParse = false;
 bool userInput = true;
 bool userInput2 = true;
-string userAnswer;
+int realNum;
 
 
 
@@ -25,18 +27,28 @@ while (playAgain == true)
     Console.WriteLine("----------------------------------------------");
     Console.WriteLine("Okay enter your first number:");
     num1 = Console.ReadLine();
+    canParse = Int32.TryParse(num1, out realNum);
+    if(canParse == false)
+    {
+        Console.WriteLine("INVALID ENTRY. Please enter a number:");
+        num1 = Console.ReadLine();
+    }
 
-    Console.WriteLine("Enter the second number:");
-    num2 = Console.ReadLine();
+
+        Console.WriteLine("Enter the second number:");
+        num2 = Console.ReadLine();
+        canParse = Int32.TryParse(num2, out realNum);
+        if(canParse == false)
+    {
+        Console.WriteLine("INVALID ENTRY. Please enter a number:");
+        num2 = Console.ReadLine();
+    }
 
     userInput = Int32.TryParse(num1, out validNum);
     userInput2 = Int32.TryParse(num2, out validNum2);
 
-    if((userInput != true) || (userInput2 != true))
-    {
-        Console.WriteLine("Enter in NUMBERS only. Please try again.");
-    }
-    else if (validNum > validNum2)
+
+    if (validNum > validNum2)
     {
         Console.WriteLine($"{validNum} is greater than {validNum2}");
         Console.WriteLine($"{validNum2} is less than {validNum}");
@@ -53,14 +65,22 @@ while (playAgain == true)
     Console.WriteLine("Do you want to play again? (YES/NO)");
     userAnswer = Console.ReadLine().ToUpper();
 
+
+
     if (userAnswer == "YES")
     {
         playAgain = true;
     }
-    else
+    if (userAnswer == "NO")
     {
         playAgain = false;
         Console.WriteLine("It was fun! See you next time :)");
+    }
+
+        if(userAnswer != "YES" && userAnswer != "NO")
+    {
+        Console.WriteLine("INVALID ENTRY! Please enter YES or NO.");
+        userAnswer = Console.ReadLine();
     }
 
 
