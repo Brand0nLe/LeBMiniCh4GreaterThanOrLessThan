@@ -1,0 +1,15 @@
+/Users/brandonle/Desktop/CODESTACK/LevelOne/October/Week1/LeBMiniCh4GreaterThanOrLessThan/obj/Debug/net6.0/LeBMiniCh4GreaterThanOrLessThan.csproj.AssemblyReference.cache
+/Users/brandonle/Desktop/CODESTACK/LevelOne/October/Week1/LeBMiniCh4GreaterThanOrLessThan/obj/Debug/net6.0/LeBMiniCh4GreaterThanOrLessThan.GeneratedMSBuildEditorConfig.editorconfig
+/Users/brandonle/Desktop/CODESTACK/LevelOne/October/Week1/LeBMiniCh4GreaterThanOrLessThan/obj/Debug/net6.0/LeBMiniCh4GreaterThanOrLessThan.AssemblyInfoInputs.cache
+/Users/brandonle/Desktop/CODESTACK/LevelOne/October/Week1/LeBMiniCh4GreaterThanOrLessThan/obj/Debug/net6.0/LeBMiniCh4GreaterThanOrLessThan.AssemblyInfo.cs
+/Users/brandonle/Desktop/CODESTACK/LevelOne/October/Week1/LeBMiniCh4GreaterThanOrLessThan/obj/Debug/net6.0/LeBMiniCh4GreaterThanOrLessThan.csproj.CoreCompileInputs.cache
+/Users/brandonle/Desktop/CODESTACK/LevelOne/October/Week1/LeBMiniCh4GreaterThanOrLessThan/bin/Debug/net6.0/LeBMiniCh4GreaterThanOrLessThan
+/Users/brandonle/Desktop/CODESTACK/LevelOne/October/Week1/LeBMiniCh4GreaterThanOrLessThan/bin/Debug/net6.0/LeBMiniCh4GreaterThanOrLessThan.deps.json
+/Users/brandonle/Desktop/CODESTACK/LevelOne/October/Week1/LeBMiniCh4GreaterThanOrLessThan/bin/Debug/net6.0/LeBMiniCh4GreaterThanOrLessThan.runtimeconfig.json
+/Users/brandonle/Desktop/CODESTACK/LevelOne/October/Week1/LeBMiniCh4GreaterThanOrLessThan/bin/Debug/net6.0/LeBMiniCh4GreaterThanOrLessThan.dll
+/Users/brandonle/Desktop/CODESTACK/LevelOne/October/Week1/LeBMiniCh4GreaterThanOrLessThan/bin/Debug/net6.0/LeBMiniCh4GreaterThanOrLessThan.pdb
+/Users/brandonle/Desktop/CODESTACK/LevelOne/October/Week1/LeBMiniCh4GreaterThanOrLessThan/obj/Debug/net6.0/LeBMiniCh4GreaterThanOrLessThan.dll
+/Users/brandonle/Desktop/CODESTACK/LevelOne/October/Week1/LeBMiniCh4GreaterThanOrLessThan/obj/Debug/net6.0/refint/LeBMiniCh4GreaterThanOrLessThan.dll
+/Users/brandonle/Desktop/CODESTACK/LevelOne/October/Week1/LeBMiniCh4GreaterThanOrLessThan/obj/Debug/net6.0/LeBMiniCh4GreaterThanOrLessThan.pdb
+/Users/brandonle/Desktop/CODESTACK/LevelOne/October/Week1/LeBMiniCh4GreaterThanOrLessThan/obj/Debug/net6.0/LeBMiniCh4GreaterThanOrLessThan.genruntimeconfig.cache
+/Users/brandonle/Desktop/CODESTACK/LevelOne/October/Week1/LeBMiniCh4GreaterThanOrLessThan/obj/Debug/net6.0/ref/LeBMiniCh4GreaterThanOrLessThan.dll
