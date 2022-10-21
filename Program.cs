@@ -4,6 +4,8 @@
 //Will ask the user to input two numbers and will validate whether they are 
 //greater, less than, or equal to one another. Will also give an error message if numbers
 //are not entered into both inputs and has play again option.
+//Peer Review: Jeremy Lapham - Program works perfectly and just as intended I have no complants it is very nice
+
 
 bool playAgain = true;
 int validNum = 0;
@@ -21,6 +23,7 @@ int realNum;
 
 while (playAgain == true)
 {
+    Console.Clear();
 
     Console.WriteLine("Today we are going to compare two numbers!");
     Console.WriteLine("Doesn't that sound like fun?");
