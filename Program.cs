@@ -28,20 +28,22 @@ while (playAgain == true)
     Console.WriteLine("Okay enter your first number:");
     num1 = Console.ReadLine();
     canParse = Int32.TryParse(num1, out realNum);
-    if(canParse == false)
+    while(canParse == false)
     {
         Console.WriteLine("INVALID ENTRY. Please enter a number:");
         num1 = Console.ReadLine();
+        canParse = Int32.TryParse(num1, out validNum);
     }
 
 
         Console.WriteLine("Enter the second number:");
         num2 = Console.ReadLine();
         canParse = Int32.TryParse(num2, out realNum);
-        if(canParse == false)
+        while(canParse == false)
     {
         Console.WriteLine("INVALID ENTRY. Please enter a number:");
         num2 = Console.ReadLine();
+        canParse = Int32.TryParse(num2, out validNum);
     }
 
     userInput = Int32.TryParse(num1, out validNum);
@@ -49,23 +51,35 @@ while (playAgain == true)
 
 
     if (validNum > validNum2)
-    {
+    {   
+        Console.WriteLine("-----------------------------------------");
         Console.WriteLine($"{validNum} is greater than {validNum2}");
         Console.WriteLine($"{validNum2} is less than {validNum}");
+        Console.WriteLine("-----------------------------------------");
     }
     else if (validNum < validNum2)
     {
+        Console.WriteLine("-----------------------------------------");
         Console.WriteLine($"{validNum2} is greater than {validNum}");
         Console.WriteLine($"{validNum} is less than {validNum2}");
+        Console.WriteLine("-----------------------------------------");
     }
     else if (num1 == num2)
     {
+        Console.WriteLine("-----------------------------------------");
         Console.WriteLine($"{validNum} is equal to {validNum2}");
+        Console.WriteLine("-----------------------------------------");
     }
+
     Console.WriteLine("Do you want to play again? (YES/NO)");
     userAnswer = Console.ReadLine().ToUpper();
 
 
+        while(userAnswer != "YES" && userAnswer != "NO")
+    {
+        Console.WriteLine("INVALID ENTRY! Please enter YES or NO.");
+        userAnswer = Console.ReadLine().ToUpper();
+    }
 
     if (userAnswer == "YES")
     {
@@ -77,11 +91,7 @@ while (playAgain == true)
         Console.WriteLine("It was fun! See you next time :)");
     }
 
-        if(userAnswer != "YES" && userAnswer != "NO")
-    {
-        Console.WriteLine("INVALID ENTRY! Please enter YES or NO.");
-        userAnswer = Console.ReadLine();
-    }
+
 
 
 }
