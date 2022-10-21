@@ -1,7 +1,7 @@
 ﻿//Brandon Le
 //10-20-22
 //Mini Challenge 4 - Greater Than or Less Than
-//Will ask the user to input two numbers and will validate whethere they are 
+//Will ask the user to input two numbers and will validate whether they are 
 //greater, less than, or equal to one another. Will also give an error message if numbers
 //are not entered into both inputs and has play again option.
 
